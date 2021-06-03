@@ -25,7 +25,7 @@ public class CsvFileWriter {
      * @param postPut writes the postgreSQL time for the put operation for each line
      * @param dynamoPut writes the DynamoDB time for the put operation into the
      * @param postGet writes the postgreSQL time for getting data out of the database
-     * @param dynamoGet writes the
+     * @param dynamoGet writes the get time of DynmaoDb
      */
     public void CsvWrite(long[] postPut,long[] dynamoPut, long[] postGet, long[] dynamoGet){
         new File(path).mkdir();
