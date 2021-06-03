@@ -11,3 +11,4 @@ The Resource folder contains the master list of all first name and last names
 
 ## Results
 This houses the csv of all the data collected
+Also contains the sample information
